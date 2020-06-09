@@ -1,0 +1,6 @@
+require("jquery")
+require("jquery-migrate")
+require("bootstrap")
+require("popper.js")
+require("et-line")
+require("fortawesome")

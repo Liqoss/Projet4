@@ -1040,3 +1040,11 @@ h4 {
         text-align: center;
     }
 }
+
+/* Modification optimisation */
+
+.form-group{
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+}
