@@ -23,6 +23,9 @@ Encore
     })
     .enableSassLoader()
     .autoProvidejQuery()
+    .configureLoaderRule('images', (loaderRule) => {
+        loaderRule.options.esModule = false;
+      })
 ;
 
 module.exports = Encore.getWebpackConfig();
