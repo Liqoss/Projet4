@@ -10,8 +10,8 @@ Encore
     .setPublicPath('/build')
     .addEntry('app', './assets/js/app.js')
     .disableSingleRuntimeChunk()
-    .splitEntryChunks()
-    .enableSingleRuntimeChunk()
+    //.splitEntryChunks()
+    //.enableSingleRuntimeChunk()
 
     .cleanupOutputBeforeBuild()
     .enableBuildNotifications()
@@ -23,9 +23,6 @@ Encore
     })
     .enableSassLoader()
     .autoProvidejQuery()
-    .configureLoaderRule('images', (loaderRule) => {
-        loaderRule.options.esModule = false;
-      })
 ;
 
 module.exports = Encore.getWebpackConfig();
