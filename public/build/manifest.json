@@ -1,9 +1,9 @@
 {
+  "build/0.css": "/build/0.css",
+  "build/0.js": "/build/0.js",
   "build/app.css": "/build/app.css",
   "build/app.js": "/build/app.js",
   "build/runtime.js": "/build/runtime.js",
-  "build/vendors~app.css": "/build/vendors~app.css",
-  "build/vendors~app.js": "/build/vendors~app.js",
   "build/fonts/et-line.eot": "/build/fonts/et-line.3f5eecf9.eot",
   "build/fonts/et-line.ttf": "/build/fonts/et-line.cc7129c8.ttf",
   "build/fonts/et-line.woff": "/build/fonts/et-line.d59b2385.woff",
@@ -15,12 +15,7 @@
   "build/fonts/fa-solid-900.eot": "/build/fonts/fa-solid-900.7eefe04d.eot",
   "build/fonts/fa-solid-900.woff2": "/build/fonts/fa-solid-900.9451d5fe.woff2",
   "build/fonts/fa-solid-900.woff": "/build/fonts/fa-solid-900.a940d584.woff",
-  "build/images/dots-bg.png": "/build/images/dots-bg.5e72ce7b.png",
   "build/images/et-line.svg": "/build/images/et-line.613c7311.svg",
   "build/images/fa-regular-400.svg": "/build/images/fa-regular-400.ab47faea.svg",
-  "build/images/fa-solid-900.svg": "/build/images/fa-solid-900.18df003f.svg",
-  "build/images/image-de-presentation.jpg": "/build/images/image-de-presentation.0f69f3af.jpg",
-  "build/images/la-chouette-agence-banniere.jpg": "/build/images/la-chouette-agence-banniere.aeb5e87b.jpg",
-  "build/images/lines-h2-bg.png": "/build/images/lines-h2-bg.5e72ce7b.png",
-  "build/images/texture-paper.png": "/build/images/texture-paper.4543cb6f.png"
+  "build/images/fa-solid-900.svg": "/build/images/fa-solid-900.18df003f.svg"
 }
