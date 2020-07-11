@@ -920,6 +920,7 @@ h4 {
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
+        justify-content: center;
     }
     .site-navigation {
         position: inherit;
@@ -931,7 +932,7 @@ h4 {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
-        text-align: left;
+        text-align: center;
         padding-left: 15px;
         width: 100%;
     }
