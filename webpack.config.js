@@ -6,12 +6,10 @@ if (!Encore.isRuntimeEnvironmentConfigured()) {
 }
 
 Encore
-    .setOutputPath('public/build/')
-    .setPublicPath('/public/build')
+    .setOutputPath('/build/')
+    .setPublicPath('/build')
     .addEntry('app', './assets/js/app.js')
     .disableSingleRuntimeChunk()
-    .splitEntryChunks()
-    .enableSingleRuntimeChunk()
 
     .cleanupOutputBeforeBuild()
     .enableBuildNotifications()
